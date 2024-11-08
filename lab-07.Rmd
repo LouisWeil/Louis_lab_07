@@ -62,7 +62,7 @@ score_bty_fit <- linear_reg() %>%
 tidy(score_bty_fit)
 ```
 
-*Add your linear model here. Don't worry too much about notation, you can use things like score-hat.*
+score_hat = 3.88 + 0.0666*bty_avg
 
 2. Plot the data again using `geom_jitter()`, and add the regression line.
 
